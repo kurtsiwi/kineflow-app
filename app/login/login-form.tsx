@@ -17,7 +17,7 @@ export function LoginForm() {
           type="email"
           autoComplete="email"
           required
-          className="rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
+          className="rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm text-foreground outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
         />
       </label>
 
@@ -28,7 +28,7 @@ export function LoginForm() {
           type="password"
           autoComplete="current-password"
           required
-          className="rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
+          className="rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm text-foreground outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
         />
       </label>
 

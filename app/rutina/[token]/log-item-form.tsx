@@ -8,7 +8,7 @@ const INITIAL_STATE: LogState = { error: null, done: false };
 const SCALE = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const SELECT =
-  "rounded-lg border border-zinc-200 bg-white px-3 py-2 text-base outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950";
+  "rounded-lg border border-zinc-200 bg-white px-3 py-2 text-base text-foreground outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950";
 
 export function LogItemForm({
   token,

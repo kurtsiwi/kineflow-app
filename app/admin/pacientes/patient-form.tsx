@@ -6,7 +6,7 @@ import { createPatient, type PatientFormState } from "./actions";
 const INITIAL_STATE: PatientFormState = { error: null };
 
 const FIELD =
-  "rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950";
+  "rounded-lg border border-zinc-200 bg-white px-3 py-2.5 text-sm text-foreground outline-none focus:border-brand dark:border-zinc-800 dark:bg-zinc-950";
 
 export function PatientForm() {
   const [state, formAction, pending] = useActionState(

@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
 :root {
+  /*
+   * El tema lo decide `prefers-color-scheme` más abajo. Esto es lo que se lo
+   * dice al navegador: sin `color-scheme`, el UI nativo (el icono del date
+   * picker, el desplegable del select, las scrollbars) se sigue pintando en
+   * modo claro y en tema oscuro queda ilegible.
+   */
+  color-scheme: light dark;
+
   --background: #ffffff;
   --foreground: #171717;
   --brand: #0d9488;

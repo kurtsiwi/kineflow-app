@@ -68,7 +68,7 @@ export function ExerciseCatalog({
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Buscar por nombre o zona…"
-            className="w-full rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm outline-none placeholder:text-zinc-400 focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
+            className="w-full rounded-full border border-zinc-200 bg-white px-4 py-2 text-sm text-foreground outline-none placeholder:text-zinc-400 focus:border-brand dark:border-zinc-800 dark:bg-zinc-950"
           />
         </label>
       </div>
