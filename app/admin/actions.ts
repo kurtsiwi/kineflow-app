@@ -106,7 +106,7 @@ export async function createExercise(
   }
 
   updateTag(EXERCISES_TAG);
-  redirect("/admin");
+  redirect("/admin/ejercicios");
 }
 
 export async function updateExercise(
@@ -138,7 +138,7 @@ export async function updateExercise(
   }
 
   updateTag(EXERCISES_TAG);
-  redirect("/admin");
+  redirect("/admin/ejercicios");
 }
 
 export async function togglePublished(formData: FormData): Promise<void> {

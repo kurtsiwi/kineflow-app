@@ -22,6 +22,6 @@ export const config = {
   matcher: [
     // Todas las rutas menos los assets estáticos, para que el token se
     // refresque en cualquier navegación.
-    "/((?!_next/static|_next/image|favicon.ico|.*\.(?:svg|png|jpg|jpeg|gif|webp|avif|ico)$).*)",
+    "/((?!_next/static|_next/image|favicon.ico|rutina|.*\.(?:svg|png|jpg|jpeg|gif|webp|avif|ico)$).*)",
   ],
 };

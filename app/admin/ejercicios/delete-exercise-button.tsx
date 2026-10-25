@@ -1,6 +1,6 @@
 "use client";
 
-import { deleteExercise } from "./actions";
+import { deleteExercise } from "../actions";
 
 export function DeleteExerciseButton({
   id,
